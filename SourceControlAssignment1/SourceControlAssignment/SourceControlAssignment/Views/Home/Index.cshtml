@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Home Page - Employee Registration Form Details";
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<style>
+    td{
+        padding: 10px,
+    }
+</style>
+@model SourceControlAssignment.Models.EmployeeClass
+<h2>Employee Registration Form</h2>
+@using (Html.BeginForm("EmployeeDetails", "Home", FormMethod.Post))
+{
+
+<table>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Name)
+
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Email)
+
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Number)
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.Number)
+            @Html.ValidationMessageFor(m => m.Number)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Age)
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.Age)
+            @Html.ValidationMessageFor(m => m.Age)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.Password)
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.LabelFor(m => m.ConfirmPassword)
+        </td>
+        <td>
+            @Html.TextBoxFor(m => m.ConfirmPassword)
+            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+        </td>
+    </tr>
+
+</table>
+
+    <input type="submit" value="Save Student Details" />
+}
+
+<h3 style="color:green">@ViewBag.status</h3><br />
+<h3 style="color:green">@ViewBag.details</h3>
+<h4 style="color:green">
+    <b>
+        @ViewBag.name<br />
+        @ViewBag.email<br />
+        @ViewBag.number<br />
+        @ViewBag.age
+
+    </b>
+</h4>
