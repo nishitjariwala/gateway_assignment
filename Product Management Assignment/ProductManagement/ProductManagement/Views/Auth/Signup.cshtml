@@ -1,0 +1,56 @@
+﻿@model ProductManagement.Models.User
+
+@{
+    ViewBag.Title = "Signup";
+}
+
+
+<head>
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="fadeIn first">
+                <h2>Sign Up</h2>
+            </div>
+
+
+            <form>
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @id = "Username", @class = "fadeIn second", @name = "Username", @placeholder = "Username" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @id = "Email", @class = "fadeIn second", @name = "Email", @placeholder = "Email" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @id = "password", @class = "fadeIn third", @name = "login", @placeholder = "password" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                Click Here For <a class="underlineHover" href="@Url.Action("Login")">Login</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

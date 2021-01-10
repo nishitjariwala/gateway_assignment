@@ -1,0 +1,89 @@
+﻿@model ProductManagement.Models.Product
+
+@{
+    ViewBag.Title = "Detail";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<h2>Detail</h2>
+<link href="~/Content/DetailsPage.css" rel="stylesheet" />
+
+
+<div id="container">
+
+    <div class="product-details">
+
+        <h1> @Html.DisplayFor(model => model.Name)</h1>
+        <br />
+        <br />
+        <br />
+
+
+        <p class="information"> @Html.DisplayFor(model => model.Long_Desc)</p>
+
+
+
+
+
+    </div>
+
+    <div class="product-image">
+
+        <img src="@Url.Content(Model.Lage_Image_path)" alt="">
+
+
+        <div class="info">
+            <h2> Description</h2>
+            <ul>
+                <li><strong>Category : </strong>@Html.DisplayFor(model => model.Category) </li>
+                <li><strong>Quantity : </strong>@Html.DisplayFor(model => model.Quantity)</li>
+                <li><strong>Price: </strong>@Html.DisplayFor(model => model.Price)</li>
+                <li><strong>Short Description: </strong>@Html.DisplayFor(model => model.Short_Desc)</li>
+
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<p>
+    <a href="@Url.Action("AddOrEdit","Product",new {id = Model.Product_Id}) " class="btn btn-success">Edit</a>
+
+    |
+    <a href="@Url.Action("Delete","Product",new {id = Model.Product_Id}) " class="btn btn-danger">Delete</a>
+
+</p>
+
+<script>
+        $(function () {
+            var message = '@TempData["SuccessMessage"]'
+            if (message != '') {
+                if (message == "Something Went Wrong") {
+                    swal(message, "", "error")
+                }
+                else {
+                swal(message, "", "success")
+
+                }
+
+                alertify.success(message);
+
+            }
+        });
+        function Delete(id) {
+            swal({
+              title: "Are you sure You Want to Delete This Product?",
+              type: "warning",
+              showCancelButton: true,
+              confirmButtonClass: "btn-danger",
+              confirmButtonText: "Yes, delete it!",
+              closeOnConfirm: false
+            },
+            function(){
+              window.location.href = '@Url.Action("Delete","Product")/' + id;
+            });
+
+        }
+
+
+</script>

@@ -1,0 +1,143 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<ProductManagement.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+<br />
+
+<p >
+    <button class="btn btn-success"><a href="@Url.Action("AddOrEdit")" style="color: white;text-decoration: none"> Add New Product </a></button>
+</p>
+<div>
+    <div style="text-align: left">
+        Sort By :- @Html.ActionLink("Product Name", "Index",
+new { sortOrder = "Name", CurrentSort = ViewBag.CurrentSort })
+        | @Html.ActionLink("Quantity", "Index",
+        new { sortOrder = "Quantity", CurrentSort = ViewBag.CurrentSort })
+        | @Html.ActionLink("Price", "Index",
+        new { sortOrder = "Price", CurrentSort = ViewBag.CurrentSort })
+        | @Html.ActionLink("Category", "Index",
+      new { sortOrder = "Category", CurrentSort = ViewBag.CurrentSort })
+        <br />
+        Sorting By @ViewBag.CurrentSort
+    </div>
+    <div style="text-align: right;">
+        @using (Html.BeginForm())
+        {
+            <p>
+                Search By Name  or Category: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+                <input type="submit" value="Search" />
+            </p>
+        }
+    </div>
+</div>
+<body>
+    <div>
+
+
+        @foreach (var item in Model)
+        {
+
+            <div class="col-md-6 col-lg-4 pb-3">
+                <div class="tile">
+                    <div class="wrapper">
+                        <div class="header">@Html.DisplayFor(modelItem => item.Name)</div>
+
+                       
+                        <div class="data">
+                            <div class="start">
+                                <img src="@Url.Content(item.Small_Image_path)" alt="Image 1" style="height: auto; width: 80%">
+
+                                <span></span>
+                            </div>
+                            <div class="ends">
+                                <strong>Category</strong> @Html.DisplayFor(modelItem => item.Category)
+                                <strong>Quantity</strong> @Html.DisplayFor(modelItem => item.Quantity)
+                                <strong>Price</strong> @Html.DisplayFor(modelItem => item.Price)
+                                <strong>Description</strong> @Html.DisplayFor(modelItem => item.Short_Desc)
+                            </div>
+                        </div>
+
+                       
+
+
+
+                        <div class="footer">
+                            <a href="@Url.Action("AddOrEdit","Product",new {id = item.Product_Id}) " class="btn btn-success">Edit</a>
+                            <a href="@Url.Action("Detail","Product",new {id = item.Product_Id}) " class="btn btn-primary">Details</a>
+                            <a class="btn btn-danger" onclick="Delete(@item.Product_Id)">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+
+<footer>
+
+    <div style="text-align:center" >
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @Html.PagedListPager(Model, Page_No => Url.Action("Index",
+            new { Page_No }))
+
+    </div>
+</footer>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="~/Content/CardStyle.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+
+
+
+
+@section scripts{
+
+    <script>
+        $(function () {
+            var message = '@TempData["SuccessMessage"]'
+            if (message != '') {
+                if (message == "Something Went Wrong") {
+                    swal(message, "", "error")
+                }
+                else {
+                swal(message, "", "success")
+
+                }
+
+                alertify.success(message);
+
+            }
+        });
+        function Delete(id) {
+            swal({
+              title: "Are you sure You Want to Delete This Product?",
+              type: "warning",
+              showCancelButton: true,
+              confirmButtonClass: "btn-danger",
+              confirmButtonText: "Yes, delete it!",
+              closeOnConfirm: false
+            },
+            function(){
+              window.location.href = '@Url.Action("Delete","Product")/' + id;
+            });
+
+        }
+
+
+    </script>
+
+}
+
+
