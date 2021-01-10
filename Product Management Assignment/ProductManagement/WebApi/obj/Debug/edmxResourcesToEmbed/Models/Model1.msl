@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GatewayModelStoreContainer" CdmEntityContainer="GatewayEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="GatewayModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="Category_Id" ColumnName="Category_Id" />
+          <ScalarProperty Name="Category_Name" ColumnName="Category_Name" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products_List">
+      <EntityTypeMapping TypeName="GatewayModel.Products_List">
+        <MappingFragment StoreEntitySet="Products_List">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Lage_Image_path" ColumnName="Lage_Image_path" />
+          <ScalarProperty Name="Small_Image_path" ColumnName="Small_Image_path" />
+          <ScalarProperty Name="Long_Desc" ColumnName="Long_Desc" />
+          <ScalarProperty Name="Short_Desc" ColumnName="Short_Desc" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Product_Id" ColumnName="Product_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
