@@ -1,0 +1,735 @@
+{
+	"info": {
+		"_postman_id": "fe8a6b36-0746-4faa-ba8b-46d9d8830bb3",
+		"name": "Hotel_Management_Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"Hotel H\",\r\n        \"Address\": \"vvnagar road\",\r\n        \"City\": \"Anand\",\r\n        \"PinCode\": 388120,\r\n        \"ContactNo\": 9055229929,\r\n        \"ContactPerson\": \"Mr. xz\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"nishu\",\r\n        \"UpdatedBy\": \"nishu\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 3000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"TGB\",\r\n        \"Address\": \"S G Highway\",\r\n        \"City\": \"Ahmedabad\",\r\n        \"PinCode\": 344120,\r\n        \"ContactNo\": 9055229929,\r\n        \"ContactPerson\": \"Mr. xz\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"nishu\",\r\n        \"UpdatedBy\": \"nishu\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 6000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"Sahara\",\r\n        \"Address\": \"Modhera\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 9055229929,\r\n        \"ContactPerson\": \"Mr. xz\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"nishu\",\r\n        \"UpdatedBy\": \"nishu\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 6000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 7000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"TATA\",\r\n        \"Address\": \"radhanpur\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 9055229929,\r\n        \"ContactPerson\": \"Mr. xz\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"nishu\",\r\n        \"UpdatedBy\": \"nishu\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 12000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"amantra\",\r\n        \"Address\": \"visnagar\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 8854533434,\r\n        \"ContactPerson\": \"Mr. nishu\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"darsh\",\r\n        \"UpdatedBy\": \"darsh\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single Non AC\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"Double NonAC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 4000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Hotels",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"amantra\",\r\n        \"Address\": \"visnagar\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 8854533434,\r\n        \"ContactPerson\": \"Mr. nishu\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"darsh\",\r\n        \"UpdatedBy\": \"darsh\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single Non AC\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"Double NonAC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 4000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Hotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TGB",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/room?city=Ahmedabad",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"amantra\",\r\n        \"Address\": \"visnagar\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 8854533434,\r\n        \"ContactPerson\": \"Mr. nishu\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"darsh\",\r\n        \"UpdatedBy\": \"darsh\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single Non AC\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"Double NonAC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 4000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/room?city=Ahmedabad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"room"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad"
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/room?pincode=384002",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"amantra\",\r\n        \"Address\": \"visnagar\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 8854533434,\r\n        \"ContactPerson\": \"Mr. nishu\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"darsh\",\r\n        \"UpdatedBy\": \"darsh\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single Non AC\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"Double NonAC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 4000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/room?pincode=384002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"room"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002"
+						},
+						{
+							"key": "price",
+							"value": "2000",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/room?price=2000",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Name\": \"amantra\",\r\n        \"Address\": \"visnagar\",\r\n        \"City\": \"Mehsana\",\r\n        \"PinCode\": 384002,\r\n        \"ContactNo\": 8854533434,\r\n        \"ContactPerson\": \"Mr. nishu\",\r\n        \"Website\": \"www.web.com\",\r\n        \"facebook\": \"id=3432134\",\r\n        \"Twitter\": \"id=43534553\",\r\n        \"IsActive\": true,\r\n        \"CreatedBy\": \"darsh\",\r\n        \"UpdatedBy\": \"darsh\",\r\n        \"Rooms\": [\r\n            {\r\n                \"Name\": \"single\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 8000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"Double AC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 10000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single Non AC\",\r\n                \"Category\": \"<35\",\r\n                \"Price\": 2000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"Double NonAC\",\r\n                \"Category\": \"36-50\",\r\n                \"Price\": 4000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"nishu\",\r\n                \"UpdatedBy\": \"nishu\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 5000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            },\r\n            {\r\n                \"Name\": \"single AC\",\r\n                \"Category\": \"51-100\",\r\n                \"Price\": 9000.0000,\r\n                \"IsActive\": true,\r\n                \"CreatedBy\": \"darsh\",\r\n                \"UpdatedBy\": \"darsh\"\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/room?price=2000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"room"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "2000"
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookingDate\" : \"01/02/2021\",\r\n    \"roomId\" : \"6\",\r\n    \"BookingStatus\":\"Definative\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"book"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookingDate\" : \"01/01/2021\",\r\n    \"roomId\" : \"5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"book"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/updateBookDate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookingDate\" : \"02/20/2021\",\r\n    \"roomId\" : \"6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/updateBookDate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"updateBookDate"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/updateStatus",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookingStatus\" : \"Cancelled\",\r\n    \"Id\" : \"3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/updateStatus",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"updateStatus"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/Booking?id=4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/Booking?id=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"Booking"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/isAvailable?id=3&dateString=11/01/2021",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"roomId\": 3,\r\n    \"BookingDate\" : \"01/11/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/isAvailable?id=3&dateString=11/01/2021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"isAvailable"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "3"
+						},
+						{
+							"key": "dateString",
+							"value": "11/01/2021"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57853/api/isAvailable?id=3&dateString=12/01/2021",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"roomId\": 3,\r\n    \"BookingDate\" : \"01/11/2021\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57853/api/isAvailable?id=3&dateString=12/01/2021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57853",
+					"path": [
+						"api",
+						"isAvailable"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Ahmedabad",
+							"disabled": true
+						},
+						{
+							"key": "pincode",
+							"value": "384002",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "<35",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "3"
+						},
+						{
+							"key": "dateString",
+							"value": "12/01/2021"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
