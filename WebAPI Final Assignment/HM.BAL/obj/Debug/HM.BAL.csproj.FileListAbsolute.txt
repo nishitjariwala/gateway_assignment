@@ -1,0 +1,40 @@
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.BAL.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.BAL.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.DAL.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\EntityFramework.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.DAL.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.DAL.dll.config
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\EntityFramework.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\obj\Debug\HM.BAL.csprojAssemblyReference.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\obj\Debug\HM.BAL.csproj.CoreCompileInputs.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\obj\Debug\HM.BAL.csproj.CopyComplete
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\obj\Debug\HM.BAL.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\obj\Debug\HM.BAL.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\AutoMapper.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\AutoMapper.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.BAL.dll.config
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\HM.Models.dll.config
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.BAL.dll.config
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.BAL.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.BAL.pdb
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\AutoMapper.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\EntityFramework.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.DAL.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.DAL.pdb
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.DAL.dll.config
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\HM.Models.dll.config
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\AutoMapper.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\EntityFramework.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\obj\Debug\HM.BAL.csprojAssemblyReference.cache
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\obj\Debug\HM.BAL.csproj.CoreCompileInputs.cache
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\obj\Debug\HM.BAL.csproj.CopyComplete
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\obj\Debug\HM.BAL.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.BAL\obj\Debug\HM.BAL.pdb

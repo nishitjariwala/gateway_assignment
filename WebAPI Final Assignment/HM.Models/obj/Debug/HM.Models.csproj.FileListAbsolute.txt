@@ -1,0 +1,28 @@
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csprojAssemblyReference.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\AutoMapper.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\AutoMapper.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csprojAssemblyReference.cache
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\nishit\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.pdb
