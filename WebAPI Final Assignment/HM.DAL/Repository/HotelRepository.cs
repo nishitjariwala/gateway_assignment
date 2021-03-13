@@ -83,30 +83,7 @@ namespace HM.DAL.Repository
             else return false;
         }
 
-        //public Models.Hotel GetHotel(int id)
-        //{
-        //    Database.Hotel hotel = context.Hotels.Where(c => c.Id == id).FirstOrDefault();
-        //    Models.Hotel model = new Models.Hotel();
-        //    model.Address = hotel.Address;
-        //    model.City = hotel.City;
-        //    model.ContactNo = hotel.ContactNo;
-        //    model.ContactPerson = hotel.ContactPerson;
-        //    model.CreatedBy = hotel.CreatedBy;
-        //    model.CreatedDate = hotel.CreatedDate;
-        //    model.facebook = hotel.facebook;
-        //    model.IsActive = hotel.IsActive;
-        //    model.Name = hotel.Name;
-        //    model.PinCode = hotel.PinCode;
-        //    model.Twitter = hotel.Twitter;
-        //    model.UpdatedBy = hotel.UpdatedBy;
-        //    model.UpdatedDate = hotel.UpdatedDate;
-        //    model.Website = hotel.Website;
-        //    model.Id = hotel.Id;
-        //    return model;
-        //}
-
-
-
+        
         //GET all hotels sort by alphabetic order.Response: List of hotels
         public List<Models.Hotel> GetHotels()
         {
